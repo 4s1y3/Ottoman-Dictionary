@@ -1,18 +1,18 @@
-import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 /**
  * Trie veri yapısının her bir düğümünü temsil eder.
- * Her düğüm: çocuk düğümler haritası, kelime bitiş bayrağı ve kelime verisi içerir.
  */
 public class TrieNode {
 
-    private Map<Character, TrieNode> children; // harf → çocuk düğüm
-    private boolean isEndOfWord;               // bu düğümde bir kelime bitiyor mu?
-    private OttomanWord wordData;              // biten kelimenin tam verisi
+    // Doğal alfabetik sıralama için HashMap yerine TreeMap kullanıyoruz
+    private Map<Character, TrieNode> children;
+    private boolean isEndOfWord;
+    private OttomanWord wordData;
 
     public TrieNode() {
-        this.children    = new HashMap<>();
+        this.children    = new TreeMap<>();
         this.isEndOfWord = false;
         this.wordData    = null;
     }

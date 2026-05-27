@@ -1,119 +1,79 @@
 import java.io.*;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
-/**
- * CSV dosyasından Osmanlıca kelime yükleyen sınıf.
- *
- * CSV Formatı (başlık satırı zorunlu):
- *   ottoman,arabic,meaning,origin,category,example
- *
- * Virgül içeren alanlar çift tırnak içine alınmalıdır:
- *   Sultan,سلطان,"Hükümdar, padişah",Arapça,Devlet,Örnek cümle.
- *
- * Neden CSV?
- *   200 kelimeyi koda yazmak yerine dosyada tutmak:
- *   - Kelime ekleme/silme için kodu değiştirmek gerekmez
- *   - 200.000 kelime de olsa aynı kod çalışır
- *   - Farklı dil dosyaları kolayca değiştirilebilir
- */
 public class DictionaryLoader {
 
-    /**
-     * Verilen dosya yolundaki CSV'yi okuyup OttomanWord listesi döner.
-     *
-     * @param filePath  CSV dosyasının yolu (ör. "data/sozluk.csv")
-     * @return          Yüklenen OttomanWord nesnelerinin listesi
-     */
     public static List<OttomanWord> loadFromCSV(String filePath) {
         List<OttomanWord> words = new ArrayList<>();
 
-        try (BufferedReader reader = new BufferedReader(
-                new InputStreamReader(new FileInputStream(filePath), StandardCharsets.UTF_8))) {
+        try {
+            // Dosyayı tek seferde okuyup karakter karakter (State Machine) işliyoruz.
+            // Bu sayede tırnak (") içindeki virgüller veya alt satıra inen metinler hataya yol açmaz.
+            String content = Files.readString(Paths.get(filePath), StandardCharsets.UTF_8);
 
-            String line;
-            boolean firstLine = true; // ilk satır başlık, atla
+            boolean inQuotes = false;
+            List<String> currentRow = new ArrayList<>();
+            StringBuilder currentCell = new StringBuilder();
 
-            while ((line = reader.readLine()) != null) {
-                line = line.trim();
+            for (int i = 0; i < content.length(); i++) {
+                char c = content.charAt(i);
 
-                // Boş satır veya başlık satırını atla
-                if (line.isEmpty()) continue;
-                if (firstLine) {
-                    firstLine = false;
-                    continue; // "ottoman,arabic,meaning,origin,category,example" başlığını atla
-                }
+                if (c == '"') {
+                    inQuotes = !inQuotes; // Tırnak içine girdik veya çıktık
+                } else if (c == ',' && !inQuotes) {
+                    currentRow.add(currentCell.toString().trim());
+                    currentCell.setLength(0); // Hücreyi sıfırla
+                } else if ((c == '\n' || c == '\r') && !inQuotes) {
+                    // Satır sonu (Windows için \r\n kontrolü)
+                    if (c == '\r' && i + 1 < content.length() && content.charAt(i + 1) == '\n') {
+                        i++;
+                    }
+                    currentRow.add(currentCell.toString().trim());
 
-                // Satırı virgüle göre parçala (tırnak içi virgüllere dikkat)
-                String[] parts = parseCSVLine(line);
+                    // Başlık satırını atla ve dolu satırları listeye ekle
+                    if (!currentRow.isEmpty() && currentRow.size() >= 5 && !currentRow.get(0).equalsIgnoreCase("ottoman")) {
+                        String ottoman = currentRow.get(0);
+                        String arabic = currentRow.get(1);
+                        String meaning = currentRow.get(2).replace("\"\"", "\""); // Çift tırnakları temizle
+                        String origin = currentRow.get(3);
+                        String category = currentRow.get(4);
+                        String example = currentRow.size() > 5 ? currentRow.get(5).replace("\"\"", "\"") : "";
 
-                // 6 sütun bekliyoruz (example opsiyonel olabilir)
-                if (parts.length < 5) {
-                    System.err.println("Hatalı satır atlandı: " + line);
-                    continue;
-                }
-
-                String ottoman  = parts[0].trim();
-                String arabic   = parts[1].trim();
-                String meaning  = parts[2].trim();
-                String origin   = parts[3].trim();
-                String category = parts[4].trim();
-                String example  = parts.length > 5 ? parts[5].trim() : "";
-
-                if (!ottoman.isEmpty() && !meaning.isEmpty()) {
-                    words.add(new OttomanWord(ottoman, arabic, meaning, origin, category, example));
+                        if (!ottoman.isEmpty() && !meaning.isEmpty()) {
+                            words.add(new OttomanWord(ottoman, arabic, meaning, origin, category, example));
+                        }
+                    }
+                    currentRow.clear();
+                    currentCell.setLength(0);
+                } else {
+                    currentCell.append(c);
                 }
             }
 
-            System.out.println("✔ CSV yüklendi: " + words.size() + " kelime ← " + filePath);
+            // Dosya sonunda yeni satır yoksa kalan son satırı ekle
+            if (!currentRow.isEmpty() || currentCell.length() > 0) {
+                currentRow.add(currentCell.toString().trim());
+                if (currentRow.size() >= 5 && !currentRow.get(0).equalsIgnoreCase("ottoman")) {
+                    words.add(new OttomanWord(currentRow.get(0), currentRow.get(1), currentRow.get(2),
+                            currentRow.get(3), currentRow.get(4), currentRow.size() > 5 ? currentRow.get(5) : ""));
+                }
+            }
 
-        } catch (FileNotFoundException e) {
-            System.err.println("⚠ CSV dosyası bulunamadı: " + filePath);
-            System.err.println("  Lütfen 'data/sozluk.csv' dosyasının proje klasöründe olduğundan emin olun.");
+            System.out.println("✔ Güvenli CSV Ayrıştırıcı Çalıştı. Yüklenen kelime: " + words.size());
+
         } catch (IOException e) {
-            System.err.println("⚠ Dosya okuma hatası: " + e.getMessage());
+            System.err.println("⚠ CSV Okuma Hatası: Lütfen 'data/sozluk.csv' dosyasının varlığından emin olun.");
         }
 
         return words;
     }
 
-    /**
-     * CSV satırını doğru şekilde parçalar.
-     * Tırnak içindeki virgülleri görmezden gelir.
-     *
-     * Örnek:
-     *   Sultan,سلطان,"Hükümdar, padişah",Arapça,Devlet,Cümle.
-     *   → ["Sultan", "سلطان", "Hükümdar, padişah", "Arapça", "Devlet", "Cümle."]
-     */
-    private static String[] parseCSVLine(String line) {
-        List<String> fields = new ArrayList<>();
-        StringBuilder current = new StringBuilder();
-        boolean inQuotes = false;
-
-        for (int i = 0; i < line.length(); i++) {
-            char c = line.charAt(i);
-
-            if (c == '"') {
-                inQuotes = !inQuotes; // tırnağa gir veya çık
-            } else if (c == ',' && !inQuotes) {
-                fields.add(current.toString()); // alan bitti
-                current.setLength(0);           // temizle
-            } else {
-                current.append(c);
-            }
-        }
-        fields.add(current.toString()); // son alan
-
-        return fields.toArray(new String[0]);
-    }
-
-    /**
-     * CSV'deki benzersiz kategorileri döner.
-     * Önce "Tümü" gelir, sonra dosyadaki sıraya göre kategoriler.
-     */
     public static String[] getCategoriesFromWords(List<OttomanWord> words) {
         Set<String> cats = new LinkedHashSet<>();
         for (OttomanWord w : words) cats.add(w.getCategory());

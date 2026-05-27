@@ -1,217 +1,203 @@
 ottoman,arabic,meaning,origin,category,example
-Sultan,سلطان,"Osmanlı İmparatoru, hükümdar",Arapça,Devlet,Padişahın emri kanundan üstündü.
-Vezir,وزير,"Devlet bakanı, yüksek görevli",Arapça,Devlet,Sadrazam en yüksek vezirdi.
-Kadi,قاضي,İslam mahkemesi hakimi,Arapça,Devlet,Kadı davayı uzun süre inceledi.
-Divan,ديوان,"Devlet kurulu, şiir mecmuası",Arapça,Devlet,Divan-ı Hümayun'da karar alındı.
-Kapıkulu,قاپي قلو,Sultan'ın doğrudan askeri,Türkçe,Devlet,Kapıkulu ocağı saraya bağlıydı.
-Sancak,سنجق,"İdari bölge, sancak bayrağı",Arapça,Devlet,Sancak beyi bölgeyi yönetti.
-Paşa,پاشا,Yüksek rütbeli komutan veya vali,Türkçe,Devlet,Paşa orduyu zafere taşıdı.
-Serdar,سردار,"Komutan, asker başkanı",Farsça,Devlet,Serdar sefere çıktı.
-Emir,امير,Yüksek komut makamı,Arapça,Devlet,Emir buyruğunu herkese duyurdu.
-Hükümet,حكومت,"Yönetim, hükumet",Arapça,Devlet,Hükümet kararını açıkladı.
-Ferman,فرمان,Padişah kararnamesi,Farsça,Devlet,Ferman tüm ülkeye duyuruldu.
-Mühür,مهر,"Padişah mühürü, damga",Farsça,Devlet,Mühür sadrazama teslim edildi.
-Nişan,نشان,Padişah emri vesikası,Farsça,Devlet,Nişan töreni sarayda yapıldı.
-Ahkam,احكام,"Yönetim kanunları, fermanlar",Arapça,Devlet,Ahkam defteri tutulurdu.
-Reaya,رعايا,"Teba, halk, vergi veren kesim",Arapça,Devlet,Reayadan haraç toplanırdı.
-Sadaret,صدارت,Sadrazamlık makamı,Arapça,Devlet,Sadaret mührü verildi.
-Tımar,تيمار,Asker besleme karşılığı verilen toprak,Farsça,Devlet,Sipahiye tımar olarak köy verildi.
-Zeamet,زعامت,Orta büyüklükte dirlik,Arapça,Devlet,Zeamet sahibi asker beslemek zorundaydı.
-Müfti,مفتي,"Din hukuku danışmanı, müftü",Arapça,Devlet,Müftü fetva vermek için toplandı.
-Rütbe,رتبه,"Askeri sıralama, makam",Farsça,Devlet,Yeni rütbesi verildi.
-İmam,إمام,"Cami başkanı, namaz kıldıran",Arapça,Din,İmam sabah namazını kıldırdı.
-Müezzin,مؤذن,"Ezan okuyan, cami görevlisi",Arapça,Din,Müezzin minareye çıkıp ezan okudu.
-Vaiz,واعظ,"Din talimatçısı, vaiz",Arapça,Din,Vaizin sözleri cemaati etkiledi.
-Molla,ملا,"Din adamı, din öğretmeni",Farsça,Din,Molla medresede ders verdi.
-Şeyh,شيخ,"Din lideri, tarikat ustası",Arapça,Din,Şeyhin dergahına ziyaretçiler akın etti.
-Derviş,درويش,"Müslüman keşişi, tarikat mensubu",Farsça,Din,Derviş zikir yaparak döndü.
-Tekke,تکيه,Dervişlerin ibadet yeri,Farsça,Din,Tekke kapıları her zaman açıktı.
-Tarikat,طريقة,"Din kolu, tarikat",Arapça,Din,Tarikat mensupları her hafta toplanırdı.
-Fetva,فتوا,"Din hukuku kararı, hüküm",Arapça,Din,Şeyhülislam fetva verdi.
-Helal,حلال,Dinen izin verilen şey,Arapça,Din,Helal lokma yemek önemliydi.
-Haram,حرام,Dinen yasaklanmış şey,Arapça,Din,Haram işten kaçınılırdı.
-Nebi,نبي,"Peygamber, din elçisi",Arapça,Din,Nebi'nin yolu izlendi.
-Halife,خليفة,"Peygamber'in halefi, başkan",Arapça,Din,Halife cemaatin önünde namaz kıldı.
-Türbe,تربة,Kutsal kişilerin mezarı,Arapça,Din,Türbeye adak adandı.
-Cami,جامع,İslam ibadethanesi,Arapça,Din,Cami Cuma namazında dolup taştı.
-Mihrap,محراب,Namaz kılınırken yönünü gösteren oyuk,Arapça,Din,İmam mihraptan cemaate seslendi.
-Minber,منبر,Camide hutbe okunan yüksek yer,Arapça,Din,Hatip minbere çıktı.
-Kible,قبلة,Namaz kılınan yön (Mekke),Arapça,Din,Kıbleye doğru döndüler.
-Zikir,ذكر,Allah'ı anma töreni,Arapça,Din,Dervişler zikir halkası oluşturdu.
-Mevlid,مولد,"Peygamberin doğumunu anlatan şiir, tören",Arapça,Din,Mevlid kandilinde camiler dolup taştı.
-Şair,شاعر,"Şiir yazan, ozan",Arapça,Edebiyat,Şair divanını padişaha sundu.
-Kaside,قصيدة,"Övgü ya da yergide yazılan uzun şiir",Arapça,Edebiyat,Kaside padişah için yazıldı.
-Gazel,غزل,Aşk temalı kısa şiir,Arapça,Edebiyat,Fuzuli'nin gazelleri ölümsüzdür.
-Murabba,مربع,Dört dizeli bentlerden oluşan şiir,Arapça,Edebiyat,Murabba halk arasında sevildi.
-Rubayi,رباعي,Dört mısralı şiir,Farsça,Edebiyat,Ömer Hayyam'ın rubaileri meşhurdur.
-Mesnevi,مثنوي,Çift kafiyeli uzun manzume,Arapça,Edebiyat,Mevlana'nın Mesnevi'si şaheserdir.
-Hafız,حافظ,Kur'an'ı ezberleyen kişi,Arapça,Edebiyat,Küçük yaşta hafız oldu.
-Tefsir,تفسير,"Kur'an açıklaması, yorum",Arapça,Edebiyat,Tefsir alimi ayetleri yorumladı.
-Lugat,لغة,"Kelime listesi, sözlük",Arapça,Edebiyat,Lugat kitabından kelime aradı.
-Nahiv,نحو,"Dilbilgisi, sentaks",Arapça,Edebiyat,Nahiv kuralları zordu.
-Belagat,بلاغت,Güzel ve etkili söz söyleme sanatı,Arapça,Edebiyat,Belagat dersleri medresede verilirdi.
-Hat,خط,İslam kaligrafi sanatı,Arapça,Edebiyat,Hat ustası mürekkeple levha yazdı.
-Nesih,نسخ,Divan yazısının okunaklı stili,Arapça,Edebiyat,Nesih yazısı anlaşılırdı.
-Aruz,عروض,Hece ölçüsüne dayanan klasik şiir vezni,Arapça,Edebiyat,Divan şairleri aruzu ustaca kullandı.
-Coğrafya,جغرافيا,"Yer bilgisi, yerbilim",Arapça,Bilim,Piri Reis coğrafya alanında öncüydü.
-Nücum,نجوم,"Yıldız bilgisi, astronomi",Arapça,Bilim,Nücum ilmiyle zaman hesaplandı.
-Falak,فلك,"Gök cisimleri, gökyüzü bilimi",Arapça,Bilim,Falak ilmi saatleri belirledi.
-Handese,هندسة,"Geometri, şekil bilgisi",Arapça,Bilim,Handese mimarlar için şarttı.
-Cebir,جبر,Cebir matematiği,Arapça,Bilim,El-Harezmi cebirin kurucusudur.
-Hesap,حساب,"Sayı bilgisi, aritmetik",Arapça,Bilim,Hesap bilmek tüccara lazımdı.
-İlim,علم,"Bilgi, ilim",Arapça,Bilim,İlim öğrenmek farzdır.
-Kimya,كيمياء,Kimya bilimi,Arapça,Bilim,Kimya bilgisiyle ilaç yapıldı.
-Tıp,طب,"Tıp bilgisi, hekimlik",Arapça,Bilim,İbni Sina tıbbın piridir.
-Usturlap,اسطرلاب,Gök cisimlerini ölçen alet,Yunanca,Bilim,Usturlap ile yıldız konumu belirlendi.
-Riyaziye,رياضيه,Matematik,Arapça,Bilim,Riyaziye dersinde hesap yapıldı.
-Mantık,منطق,"Doğru düşünme kuralları, logic",Arapça,Bilim,Mantık ilmi Aristoteles'e dayanır.
-Takvim,تقويم,Yılı ay ve günlere bölen çizelge,Arapça,Bilim,Takvime göre bayram belirlendi.
-Asker,عسكر,"Ordu mensubu, savaşçı",Arapça,Askerlik,Asker savaşa hazırlandı.
-Sipahi,سپاهي,Osmanlı tımarlı süvari askeri,Farsça,Askerlik,Sipahiler atlarıyla hücum etti.
-Yeniçeri,يني چري,Osmanlı'nın seçkin yaya askeri,Türkçe,Askerlik,Yeniçeriler İstanbul'u fethetti.
-Barut,باروت,"Patlayıcı madde, barut",Farsça,Askerlik,Toplar barut ile ateşlendi.
-Tüfek,طوفنك,Ateşli silah,Farsça,Askerlik,Tüfekçi alayı öne çıktı.
-Kılıç,قليچ,"Kesici silah, pala",Türkçe,Askerlik,Kılıç kuşanmak şereftir.
-Cephane,جفنة,Silah ve mühimmat,Arapça,Askerlik,Cephane deposu korundu.
-Muhasara,محاصرة,Şehir kuşatması,Arapça,Askerlik,Muhasara aylarca sürdü.
-Akıncı,آقنجي,Düşman arazisine baskın yapan süvari,Türkçe,Askerlik,Akıncılar Tuna'yı geçti.
-Topçu,طوپچو,Top kullanan asker sınıfı,Türkçe,Askerlik,Topçu birliği kaleleri dövdü.
-Nöbetçi,نوبتجي,"Bekçi, muhafız",Arapça,Askerlik,Nöbetçi kapıyı bekledi.
-Erzak,ارزاق,"Asker besini, erzak",Arapça,Askerlik,Erzak kafileleri orduyu izledi.
-Gazi,غازي,İslam adına savaşan kahraman,Arapça,Askerlik,Gazi unvanı büyük cesaret gerektirirdi.
-Sofra,سفرة,"Yemek masası, sofra",Arapça,Günlük Hayat,Sofra kuruldu herkes toplandı.
-Pilav,پلاو,"Pirinç yemeği, pilav",Farsça,Günlük Hayat,Pilav ziyafetlerin vazgeçilmeziydi.
-Kebap,كباب,Eti ateşte pişirme,Arapça,Günlük Hayat,Kebap ateşin üzerinde cızırdadı.
-Çorba,چوربا,"Çorba, sıcak yemek",Türkçe,Günlük Hayat,Çorba soğuk kış gecesi içildi.
-Ekmek,اخمك,Buğday unuyla yapılan temel gıda,Türkçe,Günlük Hayat,Ekmeksiz sofra olmaz.
-Kahve,قهوة,Kahve içeceği,Arapça,Günlük Hayat,Kahvehane sohbetlerle doldu.
-Hamam,حمام,Sıcak su banyosu yeri,Arapça,Günlük Hayat,Hamam Osmanlı'nın sosyal mekânıydı.
-Medrese,مدرسة,"İslami yüksek öğretim kurumu, okul",Arapça,Günlük Hayat,Medresede ilahiyat öğrenildi.
-Pazar,بازار,Ticaret yeri,Farsça,Günlük Hayat,Pazar günleri çarşı dolup taşardı.
-Lonca,لونجا,Esnaf ve zanaatkâr birliği,İtalyanca,Günlük Hayat,Lonca çırak yetiştirim kuralları koydu.
-Mahalle,محله,Şehrin küçük idari birimi,Arapça,Günlük Hayat,Mahalle sakinleri imamın etrafında toplandı.
-Han,خان,Yolcuların konakladığı büyük yapı,Farsça,Günlük Hayat,Kervan handa dinlendi.
-Kervansaray,كاروانسراي,İpek yolunda kervanların dinlendiği han,Farsça,Günlük Hayat,Kervansaray tüccarla doluydu.
-Vakıf,وقف,Hayır amaçlı kurulan mülk bağışı,Arapça,Günlük Hayat,Vakıf sayesinde çeşme yapıldı.
-Esnaf,اصناف,"Zanaatkârlar, meslek erbabı",Arapça,Günlük Hayat,Esnaf çarşıda yerini aldı.
-Fes,فص,Kırmızı silindir başlık,Arapça,Günlük Hayat,Fes Tanzimat'la yaygınlaştı.
-Şeriat,شريعة,"İslam hukuku, dini kanun",Arapça,Hukuk,Şeriat mahkemesi kararını verdi.
-Hüküm,حكم,"Mahkeme kararı, yargı",Arapça,Hukuk,Hüküm infaz edildi.
-Kanun,قانون,"Devlet yasası, hukuk",Arapça,Hukuk,Kanun herkese eşit uygulandı.
-Adalet,عدالة,Hukuki eşitlik ve dürüstlük,Arapça,Hukuk,Adalet mülkün temelidir.
-Mahkeme,محكمة,Hâkimin bulunduğu yargı yeri,Arapça,Hukuk,Mahkeme davayı görmeye başladı.
-Nikah,نكاح,"Evlilik akdi, resmi evlilik",Arapça,Hukuk,Nikah töreni kalabalıkla yapıldı.
-Talak,طلاق,"Boşanma, evliliği bitirme",Arapça,Hukuk,Talak hakkı kullanıldı.
-Vasiyat,وصية,Ölüm öncesi mal bırakma belgesi,Arapça,Hukuk,Vasiyat noter huzurunda okundu.
-Emanet,امانة,"Korunması için bırakılan şey, güven",Arapça,Hukuk,Emanet sahibine teslim edildi.
-Deyn,دين,"Borç, alacak",Arapça,Hukuk,Deyn ödenmeden huzur olmaz.
-Kazasker,قاضي عسكر,Ordunun baş yargıcı,Arapça,Hukuk,Kazasker askeri davaları çözdü.
-İcazet,اجازت,"İzin, diploma, yetki belgesi",Arapça,Hukuk,Medreseden icazet aldı.
-Kale,قلعة,Savunma amaçlı tahkimatlı yapı,Arapça,Mimari,Kale surları yıkılmaz görünüyordu.
-Burç,برج,"Kalenin yüksek kulesi, kule",Arapça,Mimari,Burçtan düşman görüldü.
-Sütun,ستون,Yapıyı destekleyen direk,Farsça,Mimari,Sütunlar mermerden yonuldu.
-Kemer,قنطرة,Yay şeklinde taşıyıcı yapı,Arapça,Mimari,Kemer köprüyü taşıyordu.
-Çeşme,چشمه,"Su akış yapısı, çeşme",Farsça,Mimari,Çeşmeden serinletici su aktı.
-Minare,مناره,Caminin yüksek ince kulesi,Arapça,Mimari,Minareden ezan okundu.
-Kubbe,قبه,"Yarım küre çatı, kubbe",Arapça,Mimari,Kubbe görkemli görünüyordu.
-Saray,سراي,Sultanın yaşadığı büyük konut,Farsça,Mimari,Saray altın ve mermerle bezendi.
-Sebil,سبيل,Halkın ücretsiz su içtiği yapı,Arapça,Mimari,Sebilden yolcular su içti.
-Bedesten,بدستان,Kıymetli eşya satılan kapalı çarşı,Farsça,Mimari,Bedestende değerli kumaşlar satıldı.
-Zaviye,زاويه,Dervişlerin barındığı küçük tekke,Arapça,Mimari,Zaviyede misafirler ağırlandı.
-Güzel,گوزل,"Hoş görünümlü, estetik",Türkçe,Sıfat,Güzel bir sanat eseri ortaya çıktı.
-Büyük,بويوك,"Boyutu geniş, iri",Türkçe,Sıfat,Büyük ordular karşı karşıya geldi.
-Beyaz,بياز,"Işık rengi, ak",Türkçe,Sıfat,Beyaz atı padişaha armağan ettiler.
-Siyah,سياه,"Koyu renk, kara",Farsça,Sıfat,Siyah bayrak yas alameti sayıldı.
-Aziz,عزيز,"Değerli, sevgili, güçlü",Arapça,Sıfat,Aziz dostum diye hitap etti.
-Bahtiyar,بختيار,"Mutlu, talihli kişi",Farsça,Sıfat,Bahtiyar bir ömür geçirdi.
-Garip,غريب,"Yabancı, yalnız, tuhaf",Arapça,Sıfat,Gurbet elde garip kaldı.
-Kadim,قديم,"Eski, köklü, asil",Arapça,Sıfat,Kadim bir dostlukları vardı.
-Latif,لطيف,"Nazik, zarif, ince",Arapça,Sıfat,Latif bir eda ile konuştu.
-Celil,جليل,"Yüce, büyük, muhteşem",Arapça,Sıfat,Celil bir varlık karşısındaydılar.
-Aciz,عاجز,"Güçsüz, yetersiz, beceriksiz",Arapça,Sıfat,O işten aciz kaldı.
-Necip,نجيب,"Soylu, asil, değerli",Arapça,Sıfat,Necip bir aileye mensuptu.
-Ulvi,علوي,"Yüce, göklere ait, kutsal",Arapça,Sıfat,Ulvi bir duygu sardı içini.
-Varlık,وارلق,"Varlık, ontoloji, varoluş",Türkçe,Felsefe,Varlık sorusu filozofları meşgul etti.
-Yokluk,يوقلوق,"Varolan olmayan, hiçlik",Türkçe,Felsefe,Yokluk ve varlık tartışıldı.
-Ruh,روح,"Manevi cevher, can",Arapça,Felsefe,Ruh bedenden ayrı düşünüldü.
-Akıl,عقل,"Düşünme kabiliyeti, us",Arapça,Felsefe,Akıl insanı hayvandan ayırır.
-Kader,قدر,"Allah'ın takdiri, yazgı",Arapça,Felsefe,Kaderine razı olmak öğütlendi.
-Hikmet,حكمت,"Derin bilgelik, anlam",Arapça,Felsefe,Her işte bir hikmet vardır.
-Ezel,ازل,Başlangıcı olmayan sonsuz geçmiş,Arapça,Felsefe,Ezel ve ebed tartışıldı.
-Ebed,ابد,Sonsuz gelecek zaman,Arapça,Felsefe,Ebedi olan yalnız Allah'tır.
-Ülke,اولکه,"Sınırlanmış toprak, yurt",Farsça,Coğrafya,Ülkenin sınırları genişledi.
-Şehir,شهر,"Büyük yerleşim, kent",Arapça,Coğrafya,Şehir surlarla çevriliydi.
-Nehir,نهر,Akan su yolu,Arapça,Coğrafya,Nehir tarlaları suladı.
-Deniz,دنيز,Tuzlu su kütlesi,Türkçe,Coğrafya,Deniz ticareti zenginlik getirdi.
-Boğaz,بوغاز,Dar su geçidi,Türkçe,Coğrafya,Boğaz stratejik önem taşıdı.
-Liman,لمان,Gemi yükleme ve barınma yeri,Arapça,Coğrafya,Liman tüccarlarla canlıydı.
-Ada,اده,Su içinde toprak kütlesi,Türkçe,Coğrafya,Ada denizin ortasında yükseldi.
-Orman,اورمان,Ağaçlarla kaplı geniş alan,Türkçe,Coğrafya,Orman avlanmak için bereketliydi.
-Eyalet,ايالت,Osmanlı'nın büyük idari bölgesi,Arapça,Coğrafya,Eyaletin valisi İstanbul'a bağlıydı.
-Ud,عود,"Osmanlı müzik aleti, ud",Arapça,Müzik,Ud ustası geceyi sürükledi.
-Ney,ني,Kamıştan yapılan nefesli çalgı,Farsça,Müzik,Ney'in sesi içi burkan bir hüzündü.
-Rebap,رباب,Yaylı Osmanlı çalgısı,Arapça,Müzik,Rebap sesi dervişleri büyüledi.
-Def,دف,Daire biçimli vurmalı çalgı,Arapça,Müzik,Def vuruldukça herkes coştu.
-Makam,مقام,"Müzik dizisi, melodik çerçeve",Arapça,Müzik,Hicaz makamı Osmanlı'nın en güzeliydi.
-Usul,اصول,"Müzikte ritim kalıbı, ölçü",Arapça,Müzik,Usul vurmak müzisyen için şarttı.
-Fasıl,فصل,Osmanlı klasik müzik topluluğu,Arapça,Müzik,Fasıl heyeti saraya davet edildi.
-Ahenk,آهنگ,"Uyum, melodi, armoni",Farsça,Müzik,Ahenk içinde çalınan müzik büyüledi.
-Güfte,گفته,Şarkı sözü,Farsça,Müzik,Güfteyi ünlü şair yazmıştı.
-Neva,نوا,"Ses, ezgi, melodi",Farsça,Müzik,Neva makamında şarkı söylendi.
-Altın,التون,Sarı değerli maden,Türkçe,Ticaret,Altın para ile vergi ödendi.
-Gümüş,گوموش,Gri değerli maden,Türkçe,Ticaret,Gümüş kaplar saraya gönderildi.
-İpek,إيپك,Böcekten elde edilen değerli kumaş,Türkçe,Ticaret,İpek yolu ticareti canlandırdı.
-Pamuk,پاموق,Pamuk bitkisinden elde edilen lif,Türkçe,Ticaret,Pamuk dokumacılığı gelişti.
-Narh,نرخ,Devletin belirlediği resmi fiyat,Arapça,Ticaret,Narha uymayan esnafa ceza verildi.
-Hazine,خزينه,"Devlet kasası, değerli eşya deposu",Arapça,Ticaret,Hazine savaş ganimetiyle doldu.
-Tüccar,تجار,"Ticaret yapan kişi, tacir",Arapça,Ticaret,Venedikli tüccar İstanbul'a geldi.
-Bac,باج,"Geçiş vergisi, gümrük",Farsça,Ticaret,Bac toplanmadan gemi geçmezdi.
-Murabaha,مرابحه,Faizli alım satım,Arapça,Ticaret,Murabaha sarraflar arasında yaygındı.
-Kantar,قنطار,"Ağırlık birimi, büyük terazi",Arapça,Ticaret,Kantarla kumaş tartıldı.
-Bahar,بهار,"İlkbahar mevsimi, güzel vakit",Farsça,Tabiat,Bahar gelince çiçekler açtı.
-Güz,گوز,Sonbahar mevsimi,Türkçe,Tabiat,Güz yaprakları sarardı.
-Rüzgar,رزگار,"Yel, hava akımı",Farsça,Tabiat,Rüzgar dağların ardından esti.
-Yağmur,يغمور,Gökten düşen su damlaları,Türkçe,Tabiat,Yağmur toprakları bereketlendirdi.
-Bulut,بولوت,Gökyüzündeki su buharı kütlesi,Türkçe,Tabiat,Bulutlar güneşi gizledi.
-Güneş,گونش,Dünyamıza ışık veren yıldız,Türkçe,Tabiat,Güneş ufuktan yükseldi.
-Toprak,طوپراق,Yeryüzünü kaplayan katman,Türkçe,Tabiat,Toprak bereketli ürün verdi.
-Çiçek,چيچك,Bitkinin renkli üreme organı,Türkçe,Tabiat,Çiçekler bahçeyi süsledi.
-Irmak,ارماق,Akarsu,Türkçe,Tabiat,Irmak köyün kenarından geçiyordu.
-Dağ,داغ,Yüksek toprak kütlesi,Türkçe,Tabiat,Dağlar aşılmaz görünüyordu.
-Baş,باش,"Kafa, tepe, lider",Türkçe,İnsan,Baş ağrısına deva bulundu.
-Göz,گوز,"Görme organı, bakış",Türkçe,İnsan,Gözler söyleyemediğini anlatır.
-Kulak,قولاق,İşitme organı,Türkçe,İnsan,Kulak yalnız duyulanı değil hissedileni de alır.
-Gönül,گونول,"Kalp, iç dünya, sevgi yuvası",Türkçe,İnsan,Gönlünü kimseye kaptırma.
-Kalp,قلب,"Yürek, kalp",Arapça,İnsan,Kalp sevgiyle dolar.
-Can,جان,"Ruh, yaşam enerjisi",Farsça,İnsan,Cana kıymak en büyük suçtur.
-Yüz,يوز,"Çehre, sima, yüz",Türkçe,İnsan,Yüzü nur içinde parlıyordu.
-Dil,دل,"Lisan, konuşma organı",Türkçe,İnsan,Dil hem yarar hem zarar verir.
-El,ال,"El, kol, yardım",Türkçe,İnsan,El uzatmak erdem sayıldı.
-Ayak,آياق,"Yürüme organı, kaidesi",Türkçe,İnsan,Ayak basılan toprak kutsaldır.
-Saat,ساعت,"Zamanı gösteren alet, bir saatlik süre",Arapça,Zaman,Saat kulesi şehrin merkezindeydi.
-Gün,گون,Yirmi dört saatlik zaman dilimi,Türkçe,Zaman,Her gün yeni bir başlangıçtır.
-Gece,گچه,Karanlık zaman dilimi,Türkçe,Zaman,Gece karanlığında yolculuk zordur.
-Sabah,صباح,Günün ilk vakti,Arapça,Zaman,Sabah namazı ile güne başlandı.
-Akşam,آقشام,Günün son vakti,Türkçe,Zaman,Akşam ezanı şehri sardı.
-Hafta,هفته,Yedi günlük süre,Farsça,Zaman,Hafta pazarı cumartesi kurulurdu.
-Devir,دور,"Çağ, dönem, era",Arapça,Zaman,Yeni bir devir başlıyordu.
-Asır,عصر,"Yüzyıl, büyük zaman dilimi",Arapça,Zaman,Osmanlı asırlarca hüküm sürdü.
-Vakit,وقت,"Zaman, an",Arapça,Zaman,Vakit nakit gibidir.
-Ezeli,ازلي,Başlangıcı olmayan,Arapça,Zaman,Ezeli gerçekler vardır.
-Adalet,عدالة,"Dürüstlük, hak gözetme erdemi",Arapça,Ahlak,Adalet olmadan düzen olmaz.
-Merhamet,مرحمت,"Şefkat, acıma duygusu",Arapça,Ahlak,Merhamet zayıflık değil güçtür.
-Sabır,صبر,Zorluklara dayanma erdemi,Arapça,Ahlak,Sabır acıyı tatlıya çevirir.
-Şükür,شكر,Nimetlere karşı minnet duygusu,Arapça,Ahlak,Şükür kalpten gelmeliydi.
-Cömert,جوانمرد,"Eli açık, herkese veren",Farsça,Ahlak,Cömert kişi herkesçe sevildi.
-Doğru,طوغري,"Dürüst, hakikatli",Türkçe,Ahlak,Doğru sözlü insan nadirdir.
-İnsaf,انصاف,"Vicdan, adil olma, merhamet",Arapça,Ahlak,İnsaflı hükümdar halkına zulmetmez.
-Vefa,وفا,"Ahde sadakat, söz tutma",Arapça,Ahlak,Vefa dostluğun temelidir.
-Hased,حسد,"Kıskançlık, çekememezlik",Arapça,Ahlak,Hased kişiyi içten yiyen bir hastalıktır.
-Tevazu,تواضع,Alçakgönüllülük,Arapça,Ahlak,Tevazu büyüklerin süsüdür.
-Harem,حرم,Sarayın kadınlara ayrılan iç bölümü,Arapça,Saray,Harem sarayın en gizli köşesiydi.
-Valide,والده,"Padişahın annesi, sultan",Arapça,Saray,Valide sultan büyük nüfuz sahibiydi.
-Haseki,خاصكي,Padişahın gözdesi olan eş,Türkçe,Saray,Haseki sultan güçlü bir kadındı.
-Hazinedar,خزينه دار,Saray hazinesini yöneten görevli,Arapça,Saray,Hazinedar serveti titizlikle korudu.
-Kapıağası,قاپي آغاسي,Saray kapısının baş görevlisi,Türkçe,Saray,Kapıağası sultanın güvenilir adamıydı.
-Musahip,مصاحب,"Padişahın sohbet arkadaşı, nedim",Arapça,Saray,Musahip padişahı eğlendirirdi.
-Silahdar,سلاح دار,Padişahın silahını taşıyan görevli,Farsça,Saray,Silahdar sadık hizmetkarıydı.
+Adem,عدم,"Yokluk, hiçlik",Arapça,Felsefe,"Varlık ile adem arasında ince bir çizgi vardır."
+Agah,آگاه,"Bilen, haberdar",Farsça,İnsan,"Durumdan agah olunca hemen tedbir aldı."
+Acz,عجز,"Güçsüzlük, yetersizlik",Arapça,İnsan,"İnsan Allah'ın kudreti karşısında acz içindedir."
+Ahir,آخر,"Son, sonraki",Arapça,Zaman,"Ahir ömründe huzur bulmayı diledi."
+Akıbet,عاقبت,"Sonuç, son",Arapça,Zaman,"Her işin bir akıbeti vardır."
+Anasır,عناصر,"Unsurlar, öğeler",Arapça,Felsefe,"Anasır-ı erbaa dünyayı oluşturur."
+Avam,عوام,"Halk, sıradan insanlar",Arapça,Toplum,"Havas ve avam bu kararı farklı yorumladı."
+Aşikar,آشكار,"Belli, açık",Farsça,Sıfat,"Niyetinin kötü olduğu aşikar idi."
+Bürhan,برهان,"Kesin delil, kanıt",Arapça,Felsefe,"Bu iddiayı destekleyecek bir bürhan lazımdı."
+Hüccet,حجت,"Delil, belge",Arapça,Hukuk,"Kadı efendi hücceti imzalayarak hükmü verdi."
+Fehm,فهم,"Anlama, kavrama",Arapça,İnsan,"Bu ince meseleyi fehm etmek zordur."
+Tedebbür,تدبر,"Derin derin düşünme",Arapça,Felsefe,"Kainatın yaratılışı üzerine tedebbür etti."
+Müşahade,مشاهده,"Gözlem, görme",Arapça,İnsan,"Olayı bizzat müşahade etme fırsatı buldum."
+Hikmet,حكمت,"Derin bilgi, bilgelik",Arapça,Felsefe,"Her işin ardında gizli bir hikmet arardı."
+Arif,عارف,"Bilen, irfan sahibi",Arapça,İnsan,"Arif olan kişi az konuşur çok dinler."
+Tasavvur,تصور,"Zihinde canlandırma",Arapça,Felsefe,"Böyle bir felaketi tasavvur dahi edemezdim."
+Tasdik,تصديق,"Onaylama, doğrulama",Arapça,İnsan,"Hakikati kalbiyle tasdik, diliyle ikrar etti."
+Mukaddime,مقدمه,"Giriş, başlangıç",Arapça,Edebiyat,"Eserine oldukça uzun bir mukaddime yazdı."
+Tahkik,تحقيق,"Araştırma, doğrulama",Arapça,Bilim,"Meseleyi tahkik etmeden kesin hüküm verme."
+Hülasa,خلاصه,"Özet, kısaca",Arapça,Edebiyat,"Hülasa etmek gerekirse, bu iş burada biter."
+Faraziye,فرضيه,"Varsayım, hipotez",Arapça,Bilim,"Bu söylenenler sadece bir faraziyeden ibaretti."
+Halk,خلق,"Yaratılış, yoktan var etme",Arapça,Din,"Halk ve emir yalnızca Yaratıcı'ya aittir."
+İntizam,انتظام,"Düzen, tertip",Arapça,Felsefe,"Kainattaki muazzam intizam aklı hayrete düşürür."
+Kizb,كذب,Yalan,Arapça,Ahlak,"Kizb ile abad olanın ahiri berbad olur."
+Sıdk,صدق,"Doğruluk, gerçeklik",Arapça,Ahlak,"Sıdk ve sadakat her dürüst insanın şiarı olmalıdır."
+Niyaz,نياز,"Yalvarma, dua",Farsça,Din,"Gözyaşları içinde Hakk'a niyazda bulundu."
+Yakaza,يقظه,"Uyanıklık, dikkat",Arapça,İnsan,"Rüya ile yakaza arasında tuhaf bir haldeydi."
+İstidad,استعداد,"Yetenek, kabiliyet",Arapça,İnsan,"Şiir ve sanata büyük bir istidadı vardı."
+Mahiyet,ماهيت,"İçyüz, nitelik",Arapça,Felsefe,"Bu meselenin asıl mahiyetini kimse bilmiyordu."
+Umumiyet,عموميت,Genellik,Arapça,Toplum,"Bu kural toplumda umumiyet arz eder."
+Hususi,خصوصي,"Özel, kişisel",Arapça,Sıfat,"Konuklara hususi bir oda tahsis edildi."
+Zeval,زوال,"Sona erme, yok olma",Arapça,Zaman,"Öğle vakti güneş zeval noktasına erişti."
+Tahavvül,تحول,"Değişme, dönüşme",Arapça,Tabiat,"Madde halden hale tahavvül ederek varlığını sürdürür."
+Şecaat,شجاعت,"Cesaret, yiğitlik",Arapça,Ahlak,"Asker büyük bir şecaatle düşmanın üstüne yürüdü."
+Buhl,بخل,Cimrilik,Arapça,Ahlak,"Buhl hastalığı insanı dostlarından uzaklaştırır."
+Kesel,كسل,"Tembellik, uyuşukluk",Arapça,Ahlak,"Kesel ve atalet, başarının en büyük düşmanıdır."
+Elem,الم,"Acı, keder",Arapça,İnsan,"Gönlünde tarifsiz bir elem hissediyordu."
+Şedid,شديد,"Şiddetli, sert",Arapça,Sıfat,"Şedid bir kış rüzgarı esmeye başladı."
+Murakabe,مراقبه,"İç dünyasını gözden geçirme",Arapça,Din,"Derviş köşesine çekilip derin bir murakabeye daldı."
+Üns,انس,"Alışkanlık, yakınlık",Arapça,Ahlak,"Zamanla onunla aramızda tatlı bir üns peyda oldu."
+Yakinen,يقيناً,"Kesin olarak, şüphesiz",Arapça,Bilim,"Olayın tüm gelişimini yakinen müşahede ettim."
+Yave,ياوه,"Saçma, boş söz",Farsça,Sıfat,"Böyle yave sözlere itibar edip vaktini harcama."
+Yegane,يگانه,"Tek, eşsiz",Farsça,Sıfat,"Bu hayattaki yegane umudum sensin."
+Leyl,ليل,Gece,Arapça,Zaman,"Leyl ü nehar durmadan çalışıp eserini tamamladı."
+Civar,جوار,"Yöre, etraf",Arapça,Coğrafya,"Şehrin civarında sık çam ormanları vardı."
+Kadim,قديم,"Eski, köklü",Arapça,Zaman,"Bu şehir, kadim bir medeniyete asırlarca ev sahipliği yaptı."
+Ulvi,علوي,"Yüce, manevi",Arapça,Sıfat,"Gönlü ulvi hislerle dolup taşmıştı."
+Süfli,سفلي,"Alçak, bayağı",Arapça,Sıfat,"Aklını süfli arzularının esiri olmaktan kurtarmalıydı."
+Külli,كلي,"Bütün, tam",Arapça,Felsefe,"İnsanın cüzi iradesi, Allah'ın külli iradesine tabidir."
+Zahir,ظاهر,"Görünen, açık",Arapça,Felsefe,"Zahirde her şey çok yolunda görünüyordu."
+Müphem,مبهم,Belirsiz,Arapça,Sıfat,"Sözlerinde daima müphem bir mana gizliydi."
+Kavi,قوي,"Güçlü, sağlam",Arapça,Sıfat,"Zorluklara karşı kavi bir inanca sahipti."
+Kabih,قبيح,"Çirkin, kötü",Arapça,Sıfat,"Hile yapmak en kabih huylardan biridir."
+Nısfet,نصفة,"Adalet, insaf, hakkaniyet",Arapça,Hukuk,"Kadı efendi davada tam bir nısfet ile hükmetti."
+Kantar,قنطار,"Büyük terazi, ağırlık birimi",Arapça,Ticaret,"Pazarda kantar ile buğday tartıp sattılar."
+Şems,شمس,Güneş,Arapça,Tabiat,"Şems doğunca yeryüzündeki tüm karanlık dağıldı."
+Kamer,قمر,Ay,Arapça,Tabiat,"Gecenin zifiri karanlığında gökyüzünde kamer parlıyordu."
+Afitab,آفتاب,"Güneş, güzel yüz",Farsça,Edebiyat,"Afitab ufuktan naz ile doğdu."
+Asuman,آسمان,Gökyüzü,Farsça,Tabiat,"Asuman kara bulutlarla kaplandı."
+Ayan,عيان,"Açık, belli",Arapça,Sıfat,"Hakikat ayan beyan ortadadır."
+Ati,آتي,Gelecek zaman,Arapça,Zaman,"Ati için büyük hayalleri vardı."
+Asude,آسوده,"Rahat, huzurlu",Farsça,İnsan,"Asude bir ömür geçirmeyi diledi."
+Baki,باقي,"Sonsuz, kalıcı",Arapça,Zaman,"Baki kalan bu kubbede bir hoş sada imiş."
+Bimar,بيمار,Hasta,Farsça,İnsan,"Bimar gönlüme şifa ararım."
+Biçare,بيچاره,"Çaresiz, zavallı",Farsça,İnsan,"Biçare adam kapı kapı dolaştı."
+Bedbaht,بدبخت,"Kötü talihli, mutsuz",Farsça,Sıfat,"Bedbaht bir ömür sürdü."
+Bende,بنده,"Köle, kul",Farsça,Toplum,"Senin kapında bende olayım."
+Bade,باده,"Şarap, kadeh",Farsça,Edebiyat,"Saki mecliste bade sundu."
+Cemal,جمال,"Güzellik, yüz güzelliği",Arapça,Sıfat,"Cemaline bakmaya doyulmaz."
+Celal,جلال,"Büyüklük, heybet",Arapça,Sıfat,"Padişah celal ile tahta oturdu."
+Cüda,جدا,"Ayrı düşmüş, uzak",Farsça,İnsan,"Beni yuvamdan cüda kıldılar."
+Cefa,جفا,"Eziyet, sıkıntı",Arapça,Ahlak,"Bu kadar cefa aşığı usandırır."
+Cila,جلا,"Parlaklık, parlatma",Arapça,Madde,"Aynanın cilası göz alıyordu."
+Çeşm,چشم,Göz,Farsça,İnsan,"Çeşminden yaşlar süzüldü."
+Çerh,چرخ,"Gökyüzü, felek",Farsça,Tabiat,"Çerh-i gerdun durmadan döner."
+Çalak,چالاك,"Çevik, hızlı",Farsça,Sıfat,"Çalak bir atla yola çıktı."
+Çırağ,چراغ,"Kandil, meşale",Farsça,Madde,"Gece karanlığında çırağ uyandırdılar."
+Çehre,چهره,"Yüz, sima",Farsça,İnsan,"Çehresinde derin bir hüzün vardı."
+Derya,دريا,"Deniz, büyük su",Farsça,Coğrafya,"Deryaya açılan gemiler geri dönmedi."
+Derun,درون,"İç, gönül",Farsça,İnsan,"Derununda fırtınalar kopuyordu."
+Dildar,دلدار,"Sevgili, kalbe hükmeden",Farsça,Edebiyat,"Dildar naz ile gülümsedi."
+Diba,ديبا,İpekli değerli kumaş,Farsça,Ticaret,"Diba kumaşından kaftan giydi."
+Dilhun,دلهون,İçi kan ağlayan,Farsça,İnsan,"Olayı duyunca dilhun oldu."
+Ecel,اجل,Belirlenmiş ömür sonu,Arapça,Zaman,"Ecel gelince ferman dinlemez."
+Efkâr,افكار,"Fikirler, düşünceler",Arapça,İnsan,"Efkârı dağıtmak için sahile indi."
+Elzem,الزم,"Çok gerekli, şart",Arapça,Sıfat,"Bu kararı almak elzemdir."
+Emsal,امثال,"Benzerler, örnekler",Arapça,Sıfat,"Bunun bir emsali daha görülmedi."
+Eza,اذى,"Sıkıntı, incitme",Arapça,Ahlak,"Zalimlerin ezası bitmek bilmedi."
+Fani,فاني,"Geçici, ölümlü",Arapça,Felsefe,"Şu fani dünyada ebedi kalınmaz."
+Fecir,فجر,Tan yeri ağarması,Arapça,Zaman,"Fecir vakti uyanıp dua etti."
+Firkat,فرقت,Ayrılık acısı,Arapça,Edebiyat,"Firkat ateşiyle yandı kavruldu."
+Fıtrat,فطرت,"Yaratılış, doğa",Arapça,İnsan,"Fıtratına uygun davranmalıdır."
+Felek,فلك,"Gök küre, şans",Arapça,Tabiat,"Felek yüzüme gülmedi."
+Fevkalade,فوق العاده,Alışılmışın ötesinde,Arapça,Sıfat,"Fevkalade bir manzara ile karşılaştık."
+Gaflet,غفلت,"Dalgınlık, dikkatsizlik",Arapça,Ahlak,"Gaflet uykusundan uyan ey insan."
+Gerdun,گردون,"Dönen, felek",Farsça,Felsefe,"Gerdun kimseye vefa göstermez."
+Giryan,گريان,"Ağlayan, gözyaşı döken",Farsça,Sıfat,"Giryan gözlerle arkasından baktı."
+Güruh,گروه,"Kalabalık, topluluk",Farsça,Toplum,"Büyük bir güruh saraya yürüdü."
+Gubar,غبار,"Toz, duman",Arapça,Tabiat,"Atların ayaklarından gubar kalktı."
+Gülşen,گلشن,Gül bahçesi,Farsça,Tabiat,"Bülbül gülşen içinde şakıdı."
+Güzide,گزيده,"Seçkin, seçilmiş",Farsça,Sıfat,"Meclisteki güzide insanlarla sohbet etti."
+Haki,خاكي,Toprak rengi,Farsça,Sıfat,"Haki renkli bir cübbe giymişti."
+Hicran,هجران,Ayrılık acısı,Arapça,Edebiyat,"Hicran yarası derindir."
+Hürriyet,حريت,"Özgürlük, bağımsızlık",Arapça,Toplum,"Hürriyet milletin en doğal hakkıdır."
+Hakikat,حقيقت,"Gerçek, doğru",Arapça,Felsefe,"Hakikat er geç ortaya çıkar."
+Hasis,خسيس,"Cimri, pinti",Arapça,Ahlak,"Hasis tüccar kimseye yardım etmezdi."
+Hercai,هرجائي,"Kararsız, vefasız",Farsça,Sıfat,"Hercai gönlü bir türlü durulmadı."
+Itır,عطر,Güzel koku,Arapça,Tabiat,"Güller etrafa ıtır saçıyordu."
+Iztırap,اضطراب,"Acı, keder",Arapça,İnsan,"Büyük bir ıztırap içinde kıvrandı."
+İkbal,اقبال,"Baht açıklığı, makam",Arapça,Devlet,"İkbal kapıları ona açılmıştı."
+İlham,الهام,İçe doğan his,Arapça,Edebiyat,"Şaire ilham perileri gelmişti."
+İnayet,عنايت,"İyilik, lütuf",Arapça,Ahlak,"Allah'ın inayetiyle bu işi başardı."
+İbret,عبرت,Ders alınacak olay,Arapça,Ahlak,"Gördüklerinden ibret aldı."
+İrfan,عرفان,"Bilme, anlama",Arapça,İnsan,"İrfan ehli sessizliği tercih eder."
+Jale,ژاله,"Çiğ, şebnem",Farsça,Tabiat,"Gül yaprağında jale taneleri vardı."
+Jeng,ژنگ,"Pas, kir",Farsça,Madde,"Kılıcın üzerindeki jeng silindi."
+Jiyan,ژيان,"Kükreyen, kızgın",Farsça,Sıfat,"Şir-i jiyan gibi düşmana saldırdı."
+Kainat,كائنات,"Evren, yaratılmışlar",Arapça,Felsefe,"Kainat büyük bir ahenk içindedir."
+Kelam,كلام,"Söz, söyleyiş",Arapça,Edebiyat,"Kelamın en güzeli hakikati söyleyendir."
+Kıssa,قصه,"Hikaye, ibretlik olay",Arapça,Edebiyat,"Bu kıssadan hisse çıkarmak lazımdır."
+Kibriya,كبريا,"Büyüklük, yücelik",Arapça,Din,"Kibriya sıfatı yalnız Allah'a mahsustur."
+Keder,كدر,"Acı, üzüntü",Arapça,İnsan,"Yüreğindeki keder yüzüne yansıdı."
+Kemal,كمال,"Olgunluk, yetkinlik",Arapça,İnsan,"İlimde kemal mertebesine ulaştı."
+Lisan,لسان,"Dil, konuşma",Arapça,Edebiyat,"Tatlı lisan yılanı deliğinden çıkarır."
+Lütuf,لطف,"İyilik, bağış",Arapça,Ahlak,"Padişahın lütfuna mazhar oldu."
+Layık,لايق,"Yaraşan, uygun",Arapça,Sıfat,"O bu makama layık biridir."
+Letafet,لطافت,"İncelik, hoşluk",Arapça,Sıfat,"Sözlerindeki letafet herkesi etkiledi."
+Leb,لب,Dudak,Farsça,İnsan,"Lebinden dökülen sözler meclisi mest etti."
+Mağfiret,مغفرت,Günahların bağışlanması,Arapça,Din,"Allah'tan mağfiret diledi."
+Mazi,ماضي,Geçmiş zaman,Arapça,Zaman,"Maziye bakıp ah çekti."
+Meftun,مفتون,"Tutkun, aşık",Arapça,İnsan,"Onun güzelliğine meftun oldu."
+Mukadderat,مقدرات,"Alın yazısı, kader",Arapça,Felsefe,"Mukadderata boyun eğmek gerek."
+Makam,مقام,"Mevki, yer",Arapça,Toplum,"Yüksek bir makama tayin edildi."
+Mecaz,مجاز,Gerçek anlam dışı,Arapça,Edebiyat,"Şiirde mecaz sanatını ustaca kullandı."
+Mütebessim,متبسم,Gülümseyen,Arapça,Sıfat,"Mütebessim çehresiyle herkese huzur verdi."
+Münevver,منور,"Aydın, aydınlanmış",Arapça,Sıfat,"Münevver bir fikir adamıydı."
+Nadide,ناديده,"Görülmemiş, eşsiz",Farsça,Sıfat,"Sandıktan nadide bir kumaş çıkardı."
+Nalan,نالان,"İnleyen, feryat eden",Farsça,Sıfat,"Bülbül gülün aşkından nalan oldu."
+Name,نامه,Mektup,Farsça,Edebiyat,"Sevgiliden gelen nameyi okudu."
+Naz,ناز,"İşve, cilve",Farsça,İnsan,"Yarin nazı aşığı usandırmaz."
+Nida,ندا,"Seslenme, bağırma",Arapça,İnsan,"Uzaklardan bir nida işitildi."
+Nimet,نعمت,"İyilik, lütuf",Arapça,Din,"Allah'ın verdiği nimete şükretmeli."
+Okka,اوقه,Eski bir ağırlık ölçüsü,Arapça,Ticaret,"Bir okka kahve satın aldı."
+Otağ,اوتاغ,Hükümdar çadırı,Türkçe,Devlet,"Padişahın otağı tepeye kuruldu."
+Örf,عرف,"Gelenek, adet",Arapça,Toplum,"Örf ve adetlerimize sahip çıkmalıyız."
+Öşür,عشر,Onda bir oranında vergi,Arapça,Ticaret,"Hasadın öşürü devlete verildi."
+Peder,پدر,Baba,Farsça,İnsan,"Pederi onu okumaya teşvik etti."
+Perişan,پريشان,"Dağınık, darmadağın",Farsça,Sıfat,"Hali çok perişan görünüyordu."
+Pinhan,پنهان,"Gizli, saklı",Farsça,Sıfat,"Sırrını herkesten pinhan tuttu."
+Pervane,پروانه,Işığa uçan gece böceği,Farsça,Tabiat,"Pervane gibi mumun etrafında döndü."
+Peyman,پيمان,"Yemin, ant",Farsça,Toplum,"Dostluk üzerine peyman ettiler."
+Rayiha,رايحه,Güzel koku,Arapça,Tabiat,"Çiçeklerin rayihası odayı doldurdu."
+Rahmet,رحمت,"Acıma, esirgeme",Arapça,Din,"Gökten rahmet yağmuru yağdı."
+Reyhan,ريحان,Fesleğen otu,Arapça,Tabiat,"Bahçeye reyhan ve gül ekti."
+Rüya,رويا,"Düş, hayal",Arapça,İnsan,"Gece rüyasında nurani bir zat gördü."
+Reviş,روش,"Yürüyüş, gidişat",Farsça,İnsan,"O asil revişle salona girdi."
+Sabavet,صباوت,"Çocukluk, gençlik",Arapça,Zaman,"Sabavet günlerini özlemle andı."
+Safa,صفا,"Gönül rahatlığı, huzur",Arapça,İnsan,"Sarayda safa sürüyorlardı."
+Saye,سايه,"Gölge, himaye",Farsça,Genel,"Padişahın sayesinde huzur bulduk."
+Sükut,سكوت,"Susma, sessizlik",Arapça,İnsan,"Sükut bazen en güzel cevaptır."
+Sima,سيما,"Yüz, çehre",Farsça,İnsan,"Tanıdık bir sima aradı gözleri."
+Serap,سراب,Çölde görülen yanılgı,Arapça,Tabiat,"Çölde günlerce serap gördü."
+Şafak,شفق,Tan yeri aydınlığı,Arapça,Zaman,"Şafak sökerken yola koyuldular."
+Şeb,شب,Gece,Farsça,Zaman,"Şeb-i yelda (en uzun gece) bitmek bilmedi."
+Şevk,شوق,"Şiddetli arzu, heves",Arapça,İnsan,"Büyük bir şevk ile işe sarıldı."
+Şifa,شفا,Hastalıktan kurtulma,Arapça,Bilim,"Hekimin verdiği ilaç şifa oldu."
+Şiar,شعار,"İlke, ülkü",Arapça,Felsefe,"Doğruluk onun en büyük şiarıydı."
+Taaccüp,تعجب,"Şaşma, hayret",Arapça,İnsan,"Bu garip habere taaccüp etti."
+Tahayyül,تخيل,"Hayal etme, kurgulama",Arapça,Felsefe,"Böyle bir zaferi tahayyül edemezdim."
+Teba,تبعه,"Bağlı olan halk, uyruk",Arapça,Devlet,"Sultan tüm tebaaya adaletle hükmetti."
+Teselli,تسلي,"Avunma, acısını unutma",Arapça,İnsan,"Dostunun sözleriyle teselli buldu."
+Takat,طاقت,"Güç, kuvvet",Arapça,İnsan,"Yürümeye takati kalmamıştı."
+Talebe,طلبه,Öğrenci,Arapça,Toplum,"Medresedeki talebeler ders dinliyordu."
+Uhde,عهده,"Sorumluluk, görev",Arapça,Genel,"Bu işi kendi uhdesine aldı."
+Ulema,علما,"Alimler, bilginler",Arapça,Toplum,"Ulema meclisi sarayda toplandı."
+Umman,عمان,"Büyük deniz, okyanus",Arapça,Coğrafya,"Gemiler ummanı aşıp geldi."
+Ufuk,افق,Gök ile yerin birleştiği çizgi,Arapça,Coğrafya,"Güneş ufukta kayboldu."
+Umd,عمد,"Kasıt, bilerek yapma",Arapça,Ahlak,"Bu suçu umden işlemişti."
+Unvan,عنوان,"Lakap, isim",Arapça,Toplum,"Kendisine paşa unvanı verildi."
+Ülfet,الفت,"Alışkanlık, dostluk",Arapça,Ahlak,"Onunla ülfet etmek insana huzur verir."
+Ümit,اميد,"Umma, bekleme",Farsça,İnsan,"Hiçbir zaman ümidini kesmedi."
+Ümmet,امت,"Bir peygambere inanan cemaat",Arapça,Din,"Ümmet-i Muhammed duada birleşti."
+Üryan,عريان,"Çıplak, elbisesiz",Arapça,Sıfat,"Doğduğumuzda bu dünyaya üryan geldik."
+Ünsiyet,أنسيت,"Alışkanlık, dostluk",Arapça,Ahlak,"Aradan geçen zamanda ünsiyet kurdular."
+Vadi,وادي,Dağlar arasındaki çukur,Arapça,Coğrafya,"Ordular derin bir vadide karşılaştı."
+Vahdet,وحدت,"Birlik, tek olma",Arapça,Felsefe,"Tasavvufta vahdet-i vücud anlayışı vardır."
+Vaveyla,واويلا,"Çığlık, feryat",Arapça,İnsan,"Savaş alanından vaveyla sesleri yükseldi."
+Visal,وصال,"Kavuşma, sevgiliye ulaşma",Arapça,Edebiyat,"Yar ile visal anı geldi çattı."
+Vefa,وفا,Sözünde durma,Arapça,Ahlak,"Eski dosttan vefa beklerdi."
+Viran,ويران,"Yıkık, dökük",Farsça,Sıfat,"Savaşın ardından şehir viran oldu."
+Yad,ياد,"Anma, hatırlama",Farsça,İnsan,"Eski günleri yad edip hüzünlendiler."
+Yeis,يأس,"Umutsuzluk, karamsarlık",Arapça,İnsan,"Yeis bataklığına düşmekten sakın."
+Yaver,ياور,"Yardımcı, destekçi",Farsça,Toplum,"Padişahın yaveri emri iletti."
+Yekta,يكتا,"Eşsiz, tek",Farsça,Sıfat,"O ilimde yekta bir şahsiyetti."
+Yadigar,يادگار,"Hatıra, anı",Farsça,İnsan,"Babasından kalan yadigarı sakladı."
+Zahmet,زحمت,"Güçlük, yorgunluk",Arapça,İnsan,"Bu iş için çok zahmet çektik."
+Zaman,زمان,"Vakit, çağ",Arapça,Zaman,"Zaman su gibi akıp geçiyor."
+Zemin,زمين,"Yer, toprak",Farsça,Coğrafya,"Zemin kardan bembeyaz olmuştu."
+Ziyade,زياده,"Fazla, çok",Arapça,Miktar,"Bu ikramınız ziyadesiyle makbule geçti."
+Zarar,ضرر,"Kötülük, ziyan",Arapça,Genel,"Zararın neresinden dönülse kardır."
+Zail,زايل,"Sona eren, geçici",Arapça,Sıfat,"Dünya malı zaildir ebedi sanma."
+Zarafet,ظرافت,"İncelik, güzellik",Arapça,Sıfat,"Zarafet ile işlenmiş bir ahşap kutuydu."
